@@ -8,6 +8,7 @@ pkgs.mkShell {
     rust-analyzer # LSP Server
     rustfmt # Formatter
     clippy # Linter
+    hello-wayland
     wayland
   ];
 }
